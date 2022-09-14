@@ -1,0 +1,11 @@
+input 
+{
+    display: block;
+    margin: 30 0;
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+}

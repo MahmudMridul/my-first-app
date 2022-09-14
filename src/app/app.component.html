@@ -1,3 +1,9 @@
 <!-- This is interpolation -->
 <h1> {{title.toUpperCase()}}</h1>
-<input type="text" [(ngModel)]="title">
+<input type="text" [(ngModel)]="title"/>
+
+<!-- This is property binding -->
+<img [src]="imgURL" alt="" [height]="" [width]="">
+
+<!-- This is event binding -->
+<input (keyup)="changeImage($event)" [value]="imgURL"/>
